@@ -10,7 +10,6 @@ body {
 
 .cats {
   float: left;
-  col
 }
 
 .dogs {
@@ -42,12 +41,34 @@ li {
   background-color: beige;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 481px) {
   body {
     background-color: yellow;
   }
 
   div {
     background-color: red;
+  }
+
+  li {
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+
+  div {
+    background-color: purple;
+  }
+
+  .cats{
+    float: none;
+  }
+
+  .dogs {
+    float: none;
   }
 }
