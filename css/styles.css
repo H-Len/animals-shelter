@@ -41,3 +41,13 @@ li {
   text-decoration: underline;
   background-color: beige;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
+
+  div {
+    background-color: red;
+  }
+}
