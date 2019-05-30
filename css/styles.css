@@ -1,0 +1,43 @@
+body {
+  margin: 15px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.fancy {
+  font-style: italic;
+}
+
+.cats {
+  float: left;
+  col
+}
+
+.dogs {
+  float: right;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+li {
+  font-style: italic;
+  text-decoration: underline;
+  background-color: beige;
+}
+
+div {
+  background-color: darkblue;
+  padding: 5px;
+}
+
+.animal {
+  color: lightgreen;
+}
+
+.aboutText {
+  background-color: inherit;
+  margin-right: 5px;
+}
